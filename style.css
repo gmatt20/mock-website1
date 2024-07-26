@@ -1,0 +1,378 @@
+/* General Configurations */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.general-padding {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* Header Section */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: 15px 0 30px 0;
+}
+nav {
+  display: inherit;
+  align-items: center;
+}
+nav ul {
+  display: inherit;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+
+/* Main Landing Section */
+
+article {
+  background-color: #05f;
+  color: white;
+  padding: 40px 40px;
+}
+.container-1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.top-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 40px;
+}
+.description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.starter-btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 20px;
+  background-color: #05f;
+}
+img {
+  width: 100%;
+}
+
+/* About Section */
+
+.about-image {
+  max-width: 100%;
+}
+.about {
+  background-color: #0e0821;
+}
+.yellow-www {
+  color: yellow;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.about-title {
+  font-size: 30px;
+  line-height: 50px;
+}
+.about-description {
+  font-size: 20px;
+  margin: 40px 0 40px 0;
+}
+.learn-more-btn {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 20px;
+  background-color: #05f;
+}
+
+/* Services Section */
+
+.logo-resize {
+  width: 50px;
+  height: 50px;
+}
+.services {
+  border-radius: 10px;
+  padding: 20px;
+  border: 3px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  gap: 30px;
+  max-width: 80%;
+  min-width: 20%;
+}
+.red {
+  border-color: red;
+}
+.blue {
+  border-color: #05f;
+}
+.purple {
+  border-color: rgb(205, 9, 205);
+}
+i {
+  font-size: 20px;
+}
+.margin {
+  margin-top: 10px;
+}
+
+/* Call For Action Section */
+
+.contact-us {
+  background-color: #e2f1f7;
+  padding: 80px 20px 80px 20px;
+}
+.cfa-title {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+/* Footer Section */
+.container-footer-bg-color{
+  padding: 0;
+}
+.footer-section {
+  padding: 40px;
+  color: white;
+}
+.contact-block p {
+  margin: 10px;
+}
+.contact-yellow {
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 20px;
+}
+.get-started-btn {
+  margin-top: 30px;
+}
+.contact-title {
+  font-size: 40px;
+}
+.socials {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.socials i {
+  font-size: 30px;
+}
+.footer-credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.container-footer-bg-color {
+  background-color: #0e0821;
+}
+
+/* Animations */
+
+.red:hover {
+  box-shadow: red 0 0 3px 3px;
+  transition: 0.15s;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.blue:hover {
+  box-shadow: blue 0 0 3px 3px;
+  transition: 0.15s;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.white:hover {
+  box-shadow: white 0 0 3px 3px;
+  transition: 0.15s;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.purple:hover {
+  box-shadow: purple 0 0 3px 3px;
+  transition: 0.15s;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+/* Screen Breakpoints */
+
+@media only screen and (min-width: 992px) {
+  .sky-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+  .description {
+    font-size: 0.7em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .starter-btn {
+    font-size: 0.6em;
+    padding: 15px 20px;
+    background-color: #05f;
+  }
+  .landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px 50px 40px;
+  }
+  .container-1 {
+    font-size: 2em;
+    margin-right: 100px;
+  }
+  .top-about {
+    padding: 50px 40px 50px 40px;
+  }
+  .about-description {
+    font-size: 1.5em;
+    margin: 40px 0 40px 0;
+  }
+  .yellow-www {
+    font-size: 2em;
+  }
+  .about-image {
+    max-width: 50%;
+  }
+  .top-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .learn-more-btn {
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 20px;
+    background-color: #05f;
+  }
+  .services {
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+    gap: 30px;
+    max-width: 50%;
+  }
+  .services-container {
+    display: flex;
+    margin: 0 30px;
+    gap: 30px;
+  }
+  .logo-resize {
+    width: 4em;
+    height: 4em;
+  }
+  i {
+    font-size: 1em;
+  }
+  .margin {
+    margin-top: 50px;
+  }
+  .top-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .contact-us {
+    background-color: #e2f1f7;
+    padding: 50px 40px 50px 40px;
+  }
+  .contact-us-btn{
+    font-size: 1em;
+  }
+  .cfa-title {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  .container-footer-bg-color {
+    padding: 20px 40px 0 40px;
+  }
+  .footer-section {
+    /* padding: 50px 40px 50px 40px; */
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-block p {
+    margin: 10px;
+  }
+  .contact-yellow {
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 20px;
+  }
+  .get-started-btn {
+    margin-top: 30px;
+    font-size: 1em;
+  }
+  .contact-title {
+    font-size: 2em;
+    display: inline;
+  }
+  .socials {
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .socials i {
+    font-size: 30px;
+  }
+  .socials-container {
+    justify-content: space-between;
+    align-items: center;
+  }
+  hr {
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .services {
+    font-size: 2em;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 80%;
+    min-height: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    gap: 30px;
+  }
+}
